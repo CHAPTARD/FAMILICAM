@@ -83,7 +83,7 @@ Create a directory with the following structure:
                 anotherpic.img
 ```
 
-**Time-Saving Tip:** If you don’t want to create the directory manually, use our pre-made directory: [Download Pre-Made Directory](PUTLINKHERE).  
+**Time-Saving Tip:** If you don’t want to create the directory manually, use our pre-made directory: [Download Pre-Made Directory](https://drive.google.com/drive/folders/1z9zaZOLQQhRTx4l1jdA8UtcGUVtnvwI8?usp=sharing).  
 
 ---
 
