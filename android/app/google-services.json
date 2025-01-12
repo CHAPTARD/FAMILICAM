@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142779840859",
+    "project_id": "familicam-52dcb",
+    "storage_bucket": "familicam-52dcb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142779840859:android:9e22f7dad2ff1bddbb827e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142779840859-cuohmlhsgr85hilg85et8oiepdfp0d6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHWhHN475foccXbm_nDUCqWR-BSdiq5ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142779840859-cuohmlhsgr85hilg85et8oiepdfp0d6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

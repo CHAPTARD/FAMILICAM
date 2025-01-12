@@ -1,0 +1,44 @@
+
+Charte d’utilisation de l’application "Famil’Icam"
+
+Préambule
+Famil’Icam est une application mobile conçue pour encourager la compétition amicale et la collaboration entre les familles étudiantes au sein de l’école. Elle a pour but de renforcer l’esprit d’équipe, de stimuler la participation à des défis éducatifs et ludiques, et de favoriser l’engagement communautaire dans un environnement numérique sécurisé.
+
+
+Cette charte vise à établir les règles d’utilisation de l’application, à garantir une expérience positive pour tous les utilisateurs et à aligner les pratiques avec les valeurs éducatives et éthiques de l’école.
+
+1. Objectifs de Famil’Icam
+• Encourager la compétition saine : Proposer des défis qui stimulent la créativité, la coopération et l’esprit d’équipe.
+• Renforcer les liens communautaires : Créer des interactions positives entre les membres d’une même famille et entre différentes familles.
+• Valoriser la participation : Récompenser l’engagement et les contributions à travers un système de points et de classements.
+• Garantir un cadre sécurisé : Assurer que l’environnement numérique respecte la vie privée et la sécurité des utilisateurs.
+
+2. Engagements des utilisateurs
+Les utilisateurs s’engagent à :
+• Participer de manière respectueuse : Respecter les autres participants, y compris dans les discussions de groupe.
+• Respecter les règles des défis : Soumettre des preuves véridiques et pertinentes pour les défis (photos, vidéos, descriptions).
+• Protéger la confidentialité : Ne pas partager d’informations personnelles ou sensibles concernant d’autres utilisateurs.
+
+3. Fonctionnalités principales
+1. Défis et classements : Participation à des défis éducatifs et créatifs, avec affichage en temps réel des classements.
+2. Messagerie de groupe : Chat en temps réel pour les membres d’une même famille, avec notifications et modération.
+3. Messagerie privée : Communication individuelle entre étudiants, avec notifications.
+4. Profils d’utilisateur : Création et personnalisation de profils pour visualiser les contributions.
+5. Administration et modération : Création et gestion des défis par les enseignants ou administrateurs.
+
+4. Protection des données et sécurité
+1. Confidentialité des données : Les informations personnelles sont utilisées uniquement dans le cadre de l’application.
+2. Authentification : Chaque étudiant a un compte sécurisé, lié à son identité et sa famille.
+3. Conformité légale : L’application respecte le RGPD et les lois en vigueur.
+
+5. Sanctions en cas de non-respect
+Tout comportement contraire à cette charte peut entraîner :
+• Un avertissement.
+• Une suspension temporaire ou définitive du compte.
+• Une exclusion des défis en cours.
+
+6. Gouvernance et évolution
+1. Responsabilités de l’administration : Mise à jour régulière de l’application et garantie d’une modération efficace.
+2. Feedback : Les utilisateurs peuvent proposer des idées ou signaler des abus.
+3. Mise à jour de la charte : Ajustement en fonction des évolutions de l’application et des besoins.
+
