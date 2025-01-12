@@ -134,7 +134,7 @@ class _ChallengeItemState extends State<ChallengeItem> {
           }
         }
       } catch (e) {
-        mediaItems.add(Text('Error loading media: $e'));
+        //mediaItems.add(Text('Error loading media: $e'));
       }
     }
 
@@ -147,7 +147,14 @@ class _ChallengeItemState extends State<ChallengeItem> {
   void _addMediaWidget(String mediaUrl, String filePath, List<Widget> mediaItems) {
     final fileName = mediaUrl.split('/').last;
     final videoExtensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv', '.webm', '.mpeg', '.mpg'];
+    final imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'];
     final isVideo = videoExtensions.any((ext) => fileName.toLowerCase().endsWith(ext));
+    final isImage = imageExtensions.any((ext) => fileName.toLowerCase().endsWith(ext));
+
+    print('Processing media: $mediaUrl');
+    print('File path: $filePath');
+    print('Is video: $isVideo');
+    print('Is image: $isImage');
 
     if (!mediaUrl.contains("privacy:true")) {
       if (isVideo) {
@@ -170,8 +177,11 @@ class _ChallengeItemState extends State<ChallengeItem> {
             videoPlayer.setLooping(true);
           });
         });
-      } else {
+      } else if (isImage) {
         mediaItems.add(Image.file(File(filePath)));
+      } else {
+        mediaItems.add(Text('Unsupported file type: $fileName'));
+        print('Unsupported file type: $fileName');
       }
     }
   }

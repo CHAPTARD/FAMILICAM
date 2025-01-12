@@ -5,10 +5,13 @@ import 'package:flutter/material.dart';
 import 'screens/LoginScreen.dart';
 import 'screens/HomePage.dart';
 import 'screens/RegisterScreen.dart';  // Assuming you have a RegisterScreen widget.
+import 'package:flutter_cache_manager/flutter_cache_manager.dart'; // Import the cache manager
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  // Flush the cached media files on startup
+  await DefaultCacheManager().emptyCache();
   runApp(const MyApp());
 }
 

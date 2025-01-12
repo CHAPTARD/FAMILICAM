@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'RegisterScreen.dart';
 import 'HomePage.dart';
+import '../global.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -117,15 +118,15 @@ class _LoginScreenState extends State<LoginScreen> {
                         fillColor: Colors.white,
                         border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                         enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                       ),
                       ),
@@ -138,15 +139,15 @@ class _LoginScreenState extends State<LoginScreen> {
                         fillColor: Colors.white,
                         border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                         enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                        borderSide: const BorderSide(color: Colors.black, width: 2.0),
+                        borderSide:  BorderSide(color: dark, width: 2.0),
                         ),
                       ),
                       obscureText: true,
@@ -155,7 +156,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ElevatedButton(
                       onPressed: _login,
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.black, // Background color
+                        backgroundColor: dark, // Background color
                         foregroundColor: Colors.white, // Text color
                         shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20), // Rounded corners

@@ -146,18 +146,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 showSelectedLabels: true,
                 showUnselectedLabels: true,
                 items: const [
-                  BottomNavigationBarItem(
-                    icon: Icon(MyFlutterApp.familiesrank),
+                    BottomNavigationBarItem(
+                    icon: Icon(CustomIcons.familiesrank, size: 38),
                     label: 'Ranking',
                     ),
-                  BottomNavigationBarItem(
-                    icon: Icon(MyFlutterApp.challenges),
+                    BottomNavigationBarItem(
+                    icon: Icon(CustomIcons.challenges, size: 38),
                     label: 'Challenges',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(MyFlutterApp.familyspecific),
+                    ),
+                    BottomNavigationBarItem(
+                    icon: Icon(CustomIcons.familyspecific, size: 28),
                     label: 'Family',
-                  ),
+                    ),
                 ],
               ),
             ),

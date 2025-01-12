@@ -115,3 +115,6 @@ flutter:
       fonts:
         - asset: assets/fonts/funkhouse.ttf
         - asset: assets/icons/icons.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/icons/MyFlutterApp.ttf

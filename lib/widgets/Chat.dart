@@ -158,7 +158,12 @@ class _ChatPageState extends State<ChatPage> {
       ),
       body: Row(
         children: [
-          _buildChatSection('General', 'general_chats', isGeneralChatExpanded, Colors.grey),
+            _buildChatSection(
+            'General', 
+            'general_chats', 
+            isGeneralChatExpanded, 
+            familyThemeColor == Colors.white ? Colors.black : Colors.white
+            ),
           _buildChatSection(familyName, 'family_chats/$familyId/messages', isFamilyChatExpanded, familyThemeColor),
         ],
       ),
