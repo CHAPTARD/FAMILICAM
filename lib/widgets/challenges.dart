@@ -215,7 +215,8 @@ class _ChallengeItemState extends State<ChallengeItem> {
               child: Text(
                 widget.name,
                 style: TextStyle(
-                  fontSize: 18,
+                  fontFamily: 'MyCustomFont',
+                  fontSize: 22,
                   fontWeight: FontWeight.bold,
                   color: widget.status ? dark : Colors.grey,
                 ),

@@ -100,11 +100,11 @@ class _FamiliesRankState extends State<FamiliesRank> {
                   children: [
                     Text(
                       family.name,
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: textColor),
+                      style: TextStyle(fontFamily: 'MyCustomFont', fontSize: 20, fontWeight: FontWeight.bold, color: textColor),
                     ),
                     Text(
                       '${family.points} pts',
-                      style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: textColor),
+                      style: TextStyle(fontFamily: 'MyCustomFont',fontSize: 20, fontWeight: FontWeight.bold, color: textColor),
                     ),
                   ],
                 ),
