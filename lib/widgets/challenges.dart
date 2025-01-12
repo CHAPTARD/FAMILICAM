@@ -195,7 +195,7 @@ class _ChallengeItemState extends State<ChallengeItem> {
         });
       },
       child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        margin: const EdgeInsets.symmetric(horizontal: 34, vertical: 8),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: widget.status ? Colors.white : Colors.grey[300],

@@ -86,14 +86,14 @@ class _FamiliesRankState extends State<FamiliesRank> {
               },
               child: Container(
                 padding: EdgeInsets.all(16.0),
-                margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+                margin: EdgeInsets.symmetric(horizontal: 34.0),
                 decoration: BoxDecoration(
                   color: family.themeColor,
-                  borderRadius: BorderRadius.circular(20.0),
-                  /*border: Border.all(
-                    color: Colors.black, // Black outline
-                    width: 1.0,
-                  ),*/
+                  borderRadius: BorderRadius.circular(30.0),
+                  border: Border.all(
+                    color: Colors.white, // Black outline
+                    width: 12.0,
+                  ),
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
