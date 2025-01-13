@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: dark,
                 currentIndex: _currentIndex,
                 onTap: _onItemTapped,
-                selectedItemColor: familyThemeColor,
+                selectedItemColor: familyThemeColor == const Color(0xFF19162A) ? const Color.fromARGB(255, 91, 91, 99) : familyThemeColor,
                 unselectedItemColor: Colors.white,
                 showSelectedLabels: true,
                 showUnselectedLabels: true,
