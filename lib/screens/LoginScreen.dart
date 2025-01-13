@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
         password: _passwordController.text.trim(),
       );
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const MyHomePage(title: "FAMILYCAM")),
+        MaterialPageRoute(builder: (context) => const MyHomePage(title: "FAMILICAM")),
       );
     } catch (e) {
       setState(() {
